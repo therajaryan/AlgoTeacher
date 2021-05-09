@@ -10,3 +10,8 @@ To start the API (for signup/signin):
 To start the App:
   -> npm install 
   -> npm start
+
+![Screenshot](1.png)
+![Screenshot](2.png)
+![Screenshot](3.png)
+![Screenshot](4.png)
