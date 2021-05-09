@@ -1,1 +1,1 @@
-# AlgoTeacher
+# Algo Teacher
