@@ -245,7 +245,7 @@ export default function Blog() {
         </main>
         
       </Container>
-      <Footer title="Happy Coding!" description="" />
+      <Footer title="Happy Coding!" description="Project by Raj Aryan Sharma and Punit Jain" />
     </React.Fragment>
   );
 }
