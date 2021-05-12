@@ -175,6 +175,18 @@ export default function Blog() {
   const classes = useStyles();
   const [index, setIndex] = React.useState(0);
 
+
+  React.useEffect(() => {
+    if(localStorage.getItem('stops')){
+      setIndex(parseInt(localStorage.getItem('stops')));
+    }
+  },[])
+  React.useEffect(() => {
+    
+    localStorage.setItem('stops',index);
+  })
+
+
   return (
     <React.Fragment>
       <CssBaseline />
@@ -220,8 +232,16 @@ export default function Blog() {
            <button style={{width:'60px', marginLeft: '40px', color:'white', backgroundColor: 'black', marginBottom:'0px'}} onClick={()=>{
             if(index == 3){
               setIndex(0);
+              localStorage.removeItem('stops');
+              localStorage.setItem('stops',0);
+              console.log(localStorage.getItem('stops'));
+              return;
             }
-            setIndex(index+1)}}>Next</button>
+            setIndex(index+1);
+            localStorage.removeItem('stops');
+            localStorage.setItem('stops',index);
+            console.log(localStorage.getItem('stops'));
+            }}>Next</button>
       
      
       </Grid>
