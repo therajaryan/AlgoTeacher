@@ -2,8 +2,8 @@
 
 <!-- Copy-paste in your Readme.md file -->
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = therajaryan/AlgoTeacher"/>
+<a href="https://github.com/therajaryan/AlgoTeacher/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=therajaryan/AlgoTeacher" />
 </a>
 
 
